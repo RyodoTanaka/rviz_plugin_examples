@@ -1,0 +1,8 @@
+<library path="rviz_plugin_examples">
+  <!-- Dial Panel -->
+  <class name="rviz_plugin_examples/DialPanel" type="rviz_plugin_examples::DialPanel" base_class_type="rviz_common::Panel">
+    <description>
+      Dial Panel plugin.
+    </description>
+  </class>
+</library>
