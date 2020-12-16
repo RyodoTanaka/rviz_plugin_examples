@@ -1,26 +1,25 @@
 <package format="2">
   <name>rviz_plugin_examples</name>
   <version>1.0.0</version>
-  <description>Rviz2 plugin examples</description>
+  <description>Rviz plugin examples</description>
 
   <author email="groadpg@gmail.com">RyodoTanaka</author>
   <maintainer email="groadpg@gmail.com">RyodoTanaka</maintainer>
 
   <license>Appache2.0</license>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>catkin</buildtool_depend>
   <buildtool_depend>pkg-config</buildtool_depend>
 
   <depend>class_loader</depend>
-  <depend version_gte="1.11.2">pluginlib</depend>
-  <depend>rclcpp</depend>
+  <depend>pluginlib</depend>
+  <depend>roscpp</depend>
   <depend>std_msgs</depend>
-  <depend>rviz2</depend>
+  <depend>rviz</depend>
   <depend>eigen</depend>
   <depend>qtbase5-dev</depend>
 
   <export>
-    <build_type>ament_cmake</build_type>
     <rviz plugin="${prefix}/plugin_description.xml"/>
   </export>
 
